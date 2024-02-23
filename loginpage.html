@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK Recipes</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="images/favicon.png" rel="icon">
+</head>
+<body>
+    <header>
+        <div class="header1" id="homelogo">
+            <div class="logo">
+                <a href="homepage.html"><img src="images/logo.png"></a>
+                <a href="homepage.html"><h1>Krishna food Recipes</h1></a>
+                </div>
+            <div class="searchbar">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="search" name="q" placeholder="Search the recipes here..">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="menubar1">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fas fa-bars" id="hamburger"></i>
+                    <i class="fas fa-times" id="xcross"></i>
+                </label>
+                <ul>
+                    <li><a href="homepage.html" >Home</a></li>
+                    <li><a href="homepage.html#top" >Recipes</a></li>
+                    <li><a href="#" >Services</a></li>
+                    <li><a href="loginpage.html" >Login</a></li>
+                    <li><a href="#bottom" >Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menubar2">
+            <ul>
+                <li><a href="homepage.html" >Home</a></li>
+                <li><a href="homepage.html#top" >Recipes</a></li>
+                <li><a href="#bottom" >Services</a></li>
+                <li><a href="loginpage.html" >Login</a></li>
+                <li><a href="#bottom" >Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section  class="login">
+        <form method="post" action="homepage.html">
+            <h2>Login</h2>
+            <input type="email" required name="email" placeholder="Email address"><br>
+            <input type="password" required name="password" minlength="3" placeholder="Password"><br>
+            <div class="twobuttons">
+                <button type="reset" >Reset</button>  
+                <button type="submit">Login</button>
+            </div>
+            <p><a href="#">Forgot Password ?</a></p>
+            <span>Don't have an account</span>  &nbsp;
+            <span><a href="signuppage.html">Signup for free now !</a></span>
+        </form>
+    </section>
+    <footer>
+        <div class="viewmore">
+            <a href="#top">Back to Top</a>
+        </div>
+        <hr>
+        <div class="fcontainer">
+            <div class="useful-links">
+                <h2>Useful Links</h2>
+                <a href="homepage.html">Home</a>
+                <a href="homepage.html#top">Latest Recipes</a> 
+                <a href="signuppage.html">Create Account</a> 
+                <a href="loginpage.html">Login</a> 
+                <a href="#">Services</a> 
+            </div>
+            <br>
+            <div class="newsletter">
+                <h2>NewsLetter</h2>
+                <form align="center">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe Now</button>
+                </form>
+                <br>
+            </div>
+            <div class="social">
+                <h2 id="bottom">Follow us <br> for more recipes...</h2>
+             </div>
+        </div>
+        <hr>
+        <div class="owner">
+            Copyrights &copy; 2022 | Website Designed by KRISHNA
+        </div>
+    </footer>
+</body>
+</html>
